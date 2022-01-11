@@ -95,43 +95,31 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 
-.body-principal{
-    position: relative;
+/* llamar la clase de main */
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url('../assets/img/Cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-div .body-principal-text {
-    position: relative;
-    text-align: center;
+/* Con esto se justifica el texto y el boton */
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.home-main-text  {
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
     color: white;
+    text-align: center;
 }
-
-div .body-principal-imagen img{
-    position: absolute;
-    width: 100%;
-}
-
-div .body-principal-text h1 {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    /* font-size: 2.5rem; */
-    font-weight: 400;
-    top: 150px;
-    left: 50%;
-    transform: translate( -50%);
-
-}
-
-.body-principal-text .body-principal-text-boton {
-    position: absolute;
-    top: 250px;
-    left: 50%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-    width: 150px;
-    height: 40px;
-    background-color: #00c7a5;
-    border: 2px solid gray;
-    transform: translate( -50%);
-} 
 
