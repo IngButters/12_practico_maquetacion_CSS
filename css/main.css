@@ -19,7 +19,10 @@ html {
     font-family: 'DM Sans', sans-serif;;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
 body {
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     /* para que la página no haga scroll */
@@ -116,6 +119,7 @@ nav .profile-link a {
 }
 
 .home-main-text  {
+    font-family: 'Roboto mono', monospace;
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px;
@@ -123,3 +127,18 @@ nav .profile-link a {
     text-align: center;
 }
 
+.home-main-button {
+    /* dimension del boton */
+    width: 110px;
+    height: 50px;
+    background: #47cfac;
+    /* Acomodar el texto */
+    display: grid;
+    align-items: center;
+
+}
+
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
+}
