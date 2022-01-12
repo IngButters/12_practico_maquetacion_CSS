@@ -194,3 +194,10 @@ nav .profile-link a {
     padding-bottom: 20px;
     text-align: center;
 }
+
+/* Codigo boton generico */
+.blogs-button {
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
