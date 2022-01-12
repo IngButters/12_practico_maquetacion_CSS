@@ -142,3 +142,39 @@ nav .profile-link a {
     font-weight: 700;
     font-size: 18px;
 }
+
+/* contenedor principal donde van a ir todos los blogs */
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color: #e6e9ed;
+    /* Padding es el espacio interno que genera un contenedor */
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container {
+    /* posicion de la imagen */
+    grid-column: 1;
+}
+
+.blogs-news-img-container img {
+    /* aca se da la dimension a la imagen */
+}
+
+.blogs-news-info-container {
+    /* se posiciona el texto */
+    grid-column: 2;
+}
+
+.blog-news-info-container p {
+    margin-bottom: 35px;
+
+}
